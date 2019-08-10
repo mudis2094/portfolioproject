@@ -1,0 +1,85 @@
+/*General CSS*/
+body {
+  font-family: georgia;
+}
+
+/*Header*/
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.company {
+  background-color: black;
+  color: white;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 11px 0 11px 8px;
+}
+
+.company img {
+  height: 40px;
+  padding-right: 16px;
+}
+
+/*Navigation Bar*/
+nav {
+  background-color: white;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  list-style: none;
+}
+
+nav ul li {
+  font-size: 12pt;
+}
+
+.container a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.container a:hover {
+  color: orchid;
+}
+
+/* Banner Image*/
+.banner {
+  background-image: url("file:///Users/Molli/Desktop/UMD_INST728J/0_Personal-Project/MolliUdis_PersonalProject/ContactMe/resources/images/litho.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Form CSS*/
+.formcontainer p {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.formcontainer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+td {
+  text-decoration: none;
+}
+
+/*Footer*/
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}

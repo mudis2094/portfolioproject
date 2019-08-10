@@ -1,0 +1,120 @@
+/* Universal Styles */
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: georgia;
+}
+ h1, h2 {
+   font-weight: bold;
+ }
+
+ .container {
+   max-width: 960px;
+   margin: 0 auto;
+ }
+
+/*Header*/
+.company {
+  background-color: black;
+  color: white;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 11px 0 11px 8px;
+}
+
+.company img {
+  height: 40px;
+  padding-right: 16px;
+}
+
+/*Navigation Bar*/
+nav {
+  background-color: white;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  list-style: none;
+}
+
+nav ul li {
+  font-size: 12pt;
+}
+
+.container a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.container a:hover {
+  color: orchid;
+}
+
+/* Banner Image*/
+.banner {
+  background-image: url("file:///Users/Molli/Desktop/UMD_INST728J/Week_3/MolliUdis_project_progress3/resources/images_2/background.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Featured Projects*/
+.feature-header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.feature-header h2 {
+  font-size: 24px;
+}
+
+/*Items*/
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.project {
+  width: 30%;
+}
+
+.image img {
+  max-width: 130px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  height: 144px;
+  padding: 32px 0;
+  border: 2px solid darkblue;
+  align-items: center
+}
+
+.description {
+  background-color: darkblue;
+  display: block;
+  padding: 8px;
+  text-align: center;
+  color: white;
+}
+
+
+/*Footer*/
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}

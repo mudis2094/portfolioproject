@@ -1,0 +1,89 @@
+/*Header*/
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.company {
+  background-color: black;
+  color: white;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 11px 0 11px 8px;
+}
+
+.company img {
+  height: 40px;
+  padding-right: 16px;
+}
+
+/*Navigation Bar*/
+nav {
+  background-color: white;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  list-style: none;
+}
+
+nav ul li {
+  font-size: 12pt;
+}
+
+.container a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.container a:hover {
+  color: orchid;
+}
+
+/* Banner Image*/
+.banner {
+  background-image: url("file:///Users/Molli/Desktop/UMD_INST728J/0_Personal-Project/MolliUdis_PersonalProject/AboutMe/resources/images/Senior-Thesis-26.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*About Me */
+.aboutme {
+  display: inline-flex;
+  text-decoration: none;
+}
+
+.aboutme2 {
+  padding-left: 50px;
+}
+
+.aboutme .image {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: georgia;
+}
+
+.aboutmecontainer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+/*Footer*/
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}

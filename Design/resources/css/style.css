@@ -1,0 +1,130 @@
+/* Universal Styles */
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: georgia;
+}
+ h1, h2 {
+   font-weight: bold;
+ }
+
+ .container {
+   max-width: 960px;
+   margin: 0 auto;
+ }
+
+/*Header*/
+.company {
+  background-color: black;
+  color: white;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 11px 0 11px 8px;
+}
+
+.company img {
+  height: 40px;
+  padding-right: 16px;
+}
+
+/*Navigation Bar*/
+nav {
+  background-color: white;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  list-style: none;
+}
+
+nav ul li {
+  font-size: 12pt;
+}
+
+.container a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.container a:hover {
+  color: orchid;
+}
+
+/* Banner Image*/
+.banner {
+  background-image: url("file:///Users/Molli/Desktop/UMD_INST728J/0_Personal-Project/MolliUdis_PersonalProject/Design/resources/images/designimg.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Design Container*/
+.design-container {
+  padding: 32px 72px;
+}
+
+.design-container h3 {
+  text-align: center;
+  margin-top: 32px;
+  color: white;
+  text-decoration: none;
+}
+
+.design-container #header {
+  color: black;
+}
+
+.designs {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.designproject {
+  width: 30%;
+  display: flex;
+  flex-flow: column;
+  margin: 32px auto;
+  padding-bottom: 16px;
+  background: black;
+  color: white;
+  border-style: double;
+}
+
+.designproject .image-container {
+  width: 100%;
+  overflow: hidden;
+  height: 225px;
+  text-align: center;
+}
+
+.design-text {
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.design-text h3 {
+  text-align: left;
+}
+
+.designproject p {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/*Footer*/
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}

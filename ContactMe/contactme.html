@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="icon" href="./resources/images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
+    <script src="./resources/js/javascript.js" type="text/jscript"></script>
+  </head>
+  <body>
+    <!--Header-->
+          <header>
+            <div class="company">
+              <div class="container">
+                <img src="./resources/images/namelogo.png" alt="logo">
+                <span>Molli Udis</span>
+              </div>
+            </div>
+          </header>
+
+        <!--Navigation Bar-->
+        <nav>
+          <ul class="container">
+            <li><a href="../Design/design.html"><strong>Design</strong></li>
+            <li><a href="../Studio/studio.html"><strong>Studio</strong></li>
+            <li><a href="../AboutMe/aboutme.html"><strong>About</strong></li>
+            <li><a href="../ContactMe/contactme.html"><strong>Contact</strong></li>
+          </ul>
+        </nav>
+
+    <!--Banner Image-->
+          <div class="banner"></div>
+
+
+    <!--Form Section-->
+    <div class="formcontainer">
+
+    <!--Form Text-->
+    <p><strong>Every art and design project is unique and different. Whether it is a design project, print making, installation, or photography project, I am excited to work on something new. If you are interested in working together please contact me!</strong></p><br>
+      <div class="form">
+      <form name="contactme" action="intouch.html" action="/cgi-bin/test.cgi" onsubmit="return(validate());">
+        <h3>Contact Me</h3>
+
+        <table>
+      <!--First/Last Name-->
+          <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="FirstName"></td>
+          </tr>
+          <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="LastName"></td>
+          </tr>
+
+    <!--Email-->
+          <tr>
+            <td>Email:</td>
+            <td><input type="email" name="EmailAddress"></td>
+          </tr>
+
+    <!--Project Idea-->
+          <tr class="project">
+            <td valign="top">Project Idea:</td><br>
+            <td><textarea name="ProjectIdea" rows="8" cols="30"></textarea></td>
+          </tr>
+
+    <!--Send Button-->
+          <tr>
+            <td>&nbsp;</td>
+            <td><input type="submit" value="Send">
+          </tr>
+        </table>
+       </form>
+      </div>
+    </div>
+    <!--footer-->
+
+        <footer>
+          <div class="container">
+            <span>Molli Udis Portfolio</span>
+          </div>
+        </footer>
+  </body>
+</html>
