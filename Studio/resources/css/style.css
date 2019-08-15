@@ -1,3 +1,8 @@
+/*General CSS*/
+body {
+  font-family: georgia;
+}
+
 /*Header*/
 .container {
   max-width: 960px;
@@ -49,36 +54,53 @@ nav ul li {
 
 /* Banner Image*/
 .banner {
-  background-image: url("file:///Users/Molli/Desktop/UMD_INST728J/0_Personal-Project/MolliUdis_PersonalProject/AboutMe/resources/images/thesis2.jpg");
+  background-image: url("file:///Users/Molli/Desktop/UMD_INST728J/0_Personal-Project/MolliUdis_PersonalProject/Studio/resources/images/thesiswalking.jpg");
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/*About Me */
-.aboutme {
-  display: inline-flex;
-  text-decoration: none;
+/*Image CSS*/
+.studio-box {
+ max-width: 960px;
+ margin: 0 auto;
+ padding: 30px;
+ text-decoration: none;
 }
 
-.aboutme2 {
-  padding-left: 50px;
+.studio-box h2 {
+  padding: 20px;
   text-decoration: underline;
   text-decoration-color: white;
-  width: 50%;
   color: darkblue;
 }
 
-body {
-  font-family: georgia;
+.studio-box p {
+  padding: 20px;
+  text-decoration: underline;
+  text-decoration-color: white;
+  color: darkblue;
 }
 
-.aboutmecontainer {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 30px;
-  text-decoration: none;
+.image-selections {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.image {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  margin: 16px auto;
+  padding-bottom: 1rem;
+}
+
+.column img {
+  width: 600px;
+  height: auto;
+  padding: 20px;
 }
 
 /*Footer*/
